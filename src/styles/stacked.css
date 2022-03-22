@@ -1,0 +1,654 @@
+.ant-modal-wrap {
+    z-index: 2525255525 !important;
+}
+.ant-modal-mask{
+    background: black !important;
+    opacity: 0.7 !important;
+}
+
+.ant-modal-content {
+    background: linear-gradient(to left, #0a1e16 , #1f3823) !important;
+    border-radius: 15px !important;
+    cursor: pointer !important;
+}
+.anticon{
+    color: white !important;
+}
+.ant-modal-header{
+    background:linear-gradient(to left, #0a1e16 , #1f3823) !important;
+    border-bottom: 0px !important;
+    border-radius: 15px !important;
+
+}
+.ant-modal-title{
+    color: white !important;
+    font-family: AnonToken !important;
+}
+.ant-modal-body{
+    padding-top: 10px !important;
+}
+.lock{
+    color: white !important;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0;
+    font-family: AnonToken !important;
+
+}
+.locks{
+    color: white !important;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0;
+    font-family: AnonToken !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.lock2{
+    color: rgba(255, 255, 255, 0.741) !important;
+    font-size: 12px;
+    margin: 0;
+    font-family: AnonToken !important;
+}
+.lock2s{
+    color: rgba(255, 255, 255, 0.741) !important;
+    font-size: 12px;
+    margin: 0;
+    font-family: AnonToken !important;
+    margin-top: 5px;
+}
+.lock2ss{
+    color: rgba(255, 255, 255, 0.741) !important;
+    font-size: 12px;
+    margin: 0;
+    font-family: AnonToken !important;
+    margin-top: 15px;
+}
+
+.flexing{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexing2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #276627bd;
+    outline: none;
+    border: none;
+}
+.maw{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.span{
+    color: white;
+    margin-right: 20px;
+    background-color: rgba(201, 79, 79, 0.775);
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.span2{
+    color: white;
+    margin-right: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.staka{
+    width: 100%;
+    background: linear-gradient(to left, #1a4d39 , #27c742);
+    border-radius: 25px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: AnonToken;
+}
+.anticon svg {
+    display: block !important;
+    margin-right: 5px;
+}
+
+
+.stacked{
+    background: rgb(2,2,2);
+}
+.stacked_container{
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.stacked_box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.stacked_box1{
+    width: 49%;
+    background: linear-gradient(to left, #0a1e16 , #1f3823);
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.hamb{
+    display: none;
+}
+.stacked_box2{
+    width: 49%;
+    padding: 15px 30px;
+    background: linear-gradient(to left, #0a1e16 , #1f3823);
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.at{
+    font-size: 18px;
+    font-family: AnonToken;
+    color: white;
+}
+.atnumber{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: AnonToken;
+    color: white;
+    
+}
+.max{
+    font-size: 16px;
+    color: white;
+    font-family: AnonToken;
+
+}
+.btnflex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.stacked_btn{
+    background: linear-gradient(to left, #1a4d39 , #27c742);
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: AnonToken;
+}
+.stacked_btn2{
+    background: linear-gradient(to left, #1a4d39 , #27c742);
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: AnonToken;
+}
+
+.stacked_gra{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.stacked_poolgra{
+    background: linear-gradient(to left, #0a1e16 , #1f3823);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.stacked_poolgra2{
+    background: linear-gradient(to left, #0a1e16 , #1f3823);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 25px 20px;
+}
+.pool{
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: AnonToken;
+    color: white;
+
+}
+.box1{
+    width: 25%;
+}
+.box2{
+    width: 50%;
+}
+.box3{
+    width: 25%;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: AnonToken;
+    color: white;
+}
+.poolbody{
+    font-size: 18px;
+    color: white;
+    font-family: AnonToken;
+}
+.poolbody2{
+    font-size: 18px;
+    color: lightgray;
+    margin: 0;
+    font-family: AnonToken;
+}
+.paratitle{
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    font-family: AnonToken;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    .hamb{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        color: #0a0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .containers{
+        display: none;
+    }
+    .aswa{
+        width: 100%;
+        background: black;
+        position: absolute;
+        overflow-y: hidden;
+        height: 100vh;
+        z-index: 252525;
+        color: white;
+    }
+    .urls{
+        position: fixed;
+        list-style-type: none;
+        text-align: left;
+        color: #0a0 !important;
+    }
+    .urls >li {
+        padding: 10px 20px;
+        color: #0a0 !important;
+    }
+    .urls >li >a {
+        color: #0a0 !important;
+    }
+    .stacked{
+        background: rgb(2,2,2);
+    }
+    .stacked_container{
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .stacked_box{
+        width: 90%;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .stacked_box1{
+        width: 100%;
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        padding: 15px 30px;
+        border-radius: 20px;
+    }
+    .stacked_box2{
+        width: 100%;
+        padding: 15px 30px;
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .at{
+        font-size: 18px;
+        font-family: AnonToken;
+        color: white;
+    }
+    .atnumber{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: AnonToken;
+        color: white;
+        
+    }
+    .max{
+        font-size: 15px;
+        color: white;
+        font-family: AnonToken;
+    
+    }
+    .btnflex{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .stacked_btn{
+        background: linear-gradient(to left, #1a4d39 , #27c742);
+        width: 200px;
+        border-radius: 25px;
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        padding: 10px 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: AnonToken;
+    }
+    .stacked_btn2{
+        background: linear-gradient(to left, #1a4d39 , #27c742);
+        width: 200px;
+        border-radius: 25px;
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        padding: 10px 8px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: AnonToken;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .stacked_gra{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .stacked_poolgra{
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 15px;
+    }
+    .stacked_poolgra2{
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 25px 20px;
+    }
+    .pool{
+        font-size: 28px;
+        font-weight: bolder;
+        font-family: AnonToken;
+        color: white;
+    }
+    .box1{
+        width: 25%;
+    }
+    .box2{
+        width: 50%;
+    }
+    .box3{
+        width: 25%;
+    }
+    .title{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: AnonToken;
+        color: white;
+    }
+    .poolbody{
+        font-size: 18px;
+        color: white;
+        font-family: AnonToken;
+    }
+    .poolbody2{
+        font-size: 18px;
+        color: lightgray;
+        margin: 0;
+        font-family: AnonToken;
+    }
+    .paratitle{
+        color: white;
+        font-size: 15px;
+        width: 70%;
+        font-family: AnonToken;
+    }
+    .containers{
+        display: none;
+    }
+  }
+  .aswahide{
+    display: none;
+}
+  @media screen and (max-width: 600px) and (min-width: 250px) {
+    .hamb{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        color: #0a0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .containers{
+        display: none;
+    }
+    .aswa{
+        width: 100%;
+        background: black;
+        position: absolute;
+        overflow-y: hidden;
+        height: 100vh;
+        z-index: 252525;
+        color: white;
+    }
+    .urls{
+        position: fixed;
+        list-style-type: none;
+        text-align: left;
+        color: #0a0 !important;
+    }
+    .urls >li {
+        padding: 10px 20px;
+        color: #0a0 !important;
+    }
+    .urls >li >a {
+        color: #0a0 !important;
+    }
+    .stacked{
+        background: rgb(2,2,2);
+    }
+    .stacked_container{
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .stacked_box{
+        width: 90%;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .stacked_box1{
+        width: 100%;
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        padding: 15px 30px;
+        border-radius: 20px;
+    }
+    .stacked_box2{
+        width: 100%;
+        padding: 15px 30px;
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .at{
+        font-size: 18px;
+        font-family: AnonToken;
+        color: white;
+    }
+    .atnumber{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: AnonToken;
+        color: white;
+        
+    }
+    .max{
+        font-size: 15px;
+        color: white;
+        font-family: AnonToken;
+    
+    }
+    .btnflex{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .stacked_btn{
+        background: linear-gradient(to left, #1a4d39 , #27c742);
+        width: 130px;
+        border-radius: 25px;
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        padding: 10px 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: AnonToken;
+    }
+    .stacked_btn2{
+        background: linear-gradient(to left, #1a4d39 , #27c742);
+        width: 200px;
+        border-radius: 25px;
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        padding: 10px 8px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: AnonToken;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .stacked_gra{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .stacked_poolgra{
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        border-radius: 20px;
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 15px;
+    }
+    .stacked_poolgra2{
+        background: linear-gradient(to left, #0a1e16 , #1f3823);
+        border-radius: 20px;
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 25px 20px;
+    }
+    .pool{
+        font-size: 26px;
+        font-weight: bolder;
+        font-family: AnonToken;
+        color: white;
+
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    .title{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: AnonToken;
+        margin-top: 20px;
+        color: white;
+    }
+    .poolbody{
+        font-size: 18px;
+        color: white;
+        font-family: AnonToken;
+    }
+    .poolbody2{
+        font-size: 18px;
+        color: lightgray;
+        margin: 0;
+        font-family: AnonToken;
+    }
+    .paratitle{
+        color: white;
+        font-size: 15px;
+        width: 90%;
+        font-family: AnonToken;
+    }
+  }

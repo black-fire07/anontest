@@ -1,0 +1,17 @@
+@font-face {
+  font-family: AnonToken;
+  src: url(./AnonToken_Body_Text_Font.TTF);
+}
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+
